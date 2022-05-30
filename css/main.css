@@ -138,7 +138,9 @@ a{text-decoration: none;}
 }
 
 @media (max-width:1199px){
-    #weather{width: 100%;}
+    #weather{
+        width: 100%;
+    }
 }
 
 @media (max-width:991px){
@@ -150,6 +152,7 @@ a{text-decoration: none;}
 @media (max-width:767px){
     #weather ul li{
         width: calc(100% - 20px);
+    
     }
 }
 @media (max-width:420px){
